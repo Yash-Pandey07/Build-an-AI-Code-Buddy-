@@ -1,3 +1,4 @@
+/* For better UI modify this file from index 1 */
 *{
   font-family: sans-serif;
 }
@@ -25,17 +26,17 @@ p{
   flex-direction: column;
 }
 
-.search-result{
+/* .search-result{
   margin-top: 10px;
   overflow: scroll;
-}
-/* .search-result {
+} */
+.search-result {
   margin-top: 10px;
 }
 
 .scrollable {
   overflow: scroll;
-} */
+}
 
 .surprise{
   background-color: #ececf1;

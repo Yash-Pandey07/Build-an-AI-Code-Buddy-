@@ -1,0 +1,109 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0%;
+  width: 100vw;
+  height: 100vh;
+  background-color: #2c3e50; /* Darkened background color */
+  color: #fff; /* White text color */
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  font-weight: 200;
+  font-size: 16px; /* Increased font size */
+}
+
+.app {
+  width: 80vw;
+  margin: 10vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.search-result {
+  margin-top: 10px;
+}
+
+.scrollable {
+  overflow: scroll;
+}
+
+.surprise {
+  background-color: #34495e; /* Darkened background color */
+  color: #fff;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px; /* Increased font size */
+  padding: 12px 16px; /* Increased padding for a larger button */
+  margin: 10px 0 15px; /* Added more space around the button */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 71%;
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  border: solid 0.5px #cacaca;
+  box-sizing: border-box;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 82, 0.15) 0 2px 4px;
+  margin-bottom: 15px; /* Added more space between input container and search results */
+}
+
+.input-container input {
+  border: none;
+  padding: 13px 14px;
+  box-sizing: border-box;
+  font-size: 15px;
+  outline: none;
+  width: 90%;
+  font-weight: 200;
+}
+
+.input-container button {
+  min-width: 80px;
+  border: none;
+  background-color: #3498db;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  flex: 1;
+}
+
+.input-container button:active {
+  background-color: #2980b9;
+}
+
+.search-result {
+  margin-top: 10px;
+  overflow-y: auto;
+}
+
+.answer {
+  padding: 13px 14px;
+  border: solid 0.5px #cacaca;
+  background-color: #fff;
+  margin: 5px;
+  font-size: 15px;
+  font-weight: 200;
+  border-radius: 6px;
+  transition: background-color 0.3s ease; /* Added transition effect */
+  color: #333; /* Set a dark color for text */
+}
+
+.answer:hover {
+  background-color: #ecf0f1; /* Change background color on hover */
+}
+
+.answer:active {
+  background-color: #ecf0f1;
+}
